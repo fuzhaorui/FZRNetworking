@@ -1,0 +1,16 @@
+PODS:
+  - FZRNetworking (1.0.0)
+
+DEPENDENCIES:
+  - FZRNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  FZRNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZRNetworking: 3167ca886d585c57b78027d52c1e7f33ad26557c
+
+PODFILE CHECKSUM: 9bfca4a12dbc078b0a6ed23b36fc5b679e7e0c3a
+
+COCOAPODS: 1.11.0.rc.1

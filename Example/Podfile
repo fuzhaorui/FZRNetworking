@@ -1,0 +1,15 @@
+use_frameworks!
+
+install! 'cocoapods', :deterministic_uuids => false, :warn_for_multiple_pod_sources => false, :warn_for_unused_master_specs_repo => false
+
+platform :ios, '10.0'
+
+target 'FZRNetworking_Example' do
+  pod 'FZRNetworking', :path => '../'
+
+  target 'FZRNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
