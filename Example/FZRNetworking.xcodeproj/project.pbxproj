@@ -244,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FZR;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = FZR;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
@@ -305,10 +305,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FZRNetworking_Example/Pods-FZRNetworking_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FZRNetworking/FZRNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FZRNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

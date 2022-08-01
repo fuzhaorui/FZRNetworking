@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 
 /// MARK: - 开始网络请求 设置Headers
-- (void)networkRequestType:(NetworkRequestType)type url:(NSString *)urlString headerParamaters:(NSDictionary *__nullable)headerParamaters paramaters:(NSDictionary *__nullable)paramaters  jsonData:(NSData *__nullable)jsonData block:(ResultBlock)block;
+- (void)networkRequestType:(NetworkRequestType)type url:(NSString *)urlString headerParamaters:(NSDictionary *__nullable)headerParamaters paramaters:(NSDictionary *__nullable)paramaters jsonData:(NSData *__nullable)jsonData andDebug:(BOOL)isDebug andblock:(ResultBlock)block;
 
 @end
 

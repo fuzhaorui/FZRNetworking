@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "FZRNetworking.h"
 #import "FZRNetworkingData.h"
+#import "FZRNetworking.h"
 #import "BaseNetworkingManager.h"
 #import "Prefix-Header.h"
 

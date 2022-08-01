@@ -1,6 +1,6 @@
 {
   "name": "FZRNetworking",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "简单网络请求",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/fuzhaorui/FZRNetworking",
@@ -13,10 +13,19 @@
   },
   "source": {
     "git": "https://github.com/fuzhaorui/FZRNetworking.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "FZRNetworking/Classes/**/*"
+  "source_files": "FZRNetworking/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.1"
+    ]
+  }
 }
